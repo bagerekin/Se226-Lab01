@@ -1,0 +1,35 @@
+
+# first task
+name = input('What is your name? ')
+print('Hello ' + name)
+id = input('What is your Student ID? ')
+print('Your ID is: ' + str(id))
+
+
+# second task
+var1 = int(input('Enter the first value: '))
+var2 = int(input('Enter the second value: '))
+
+sum = var1 + var2
+diff = var1 - var2
+prod = var1 * var2
+print('Your values sum is: ' + str(sum))
+print('Your values diff is: ' + str(diff))
+print('Your values prod is: ' + str(prod))
+
+
+# third task
+name = input('Enter the name: ')
+lab = int(input('Enter the lab grade: '))
+midterm = int(input('Enter the midterm grade: '))
+final = int(input('Enter the final grade: '))
+
+print('Name: ' + name)
+print('Lab: ' + str(lab))
+print('Midterm: ' + str(midterm))
+print('Final: ' + str(final))
+print('Last Score: ' + str(lab*0.25 + midterm*0.35 + final*0.4))
+
+
+# last task
+print('*\n' + '**\n' + '***\n' + '**\n' + '*\n')
